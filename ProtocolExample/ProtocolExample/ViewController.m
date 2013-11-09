@@ -13,20 +13,18 @@
     classSendingProtocolEvents.delegate = self;
     [classSendingProtocolEvents callProtocol];
     
+    
     DownloadClass * downloader = [[DownloadClass alloc]init];
     
     downloader.delegate = self;
     [downloader startMyDownload];
 }
 
+
 -(void)downloadComplete{
     
     NSLog(@"NEW download complete");
 }
-
-
-
-
 
 
 -(void)myDownloadComplete{

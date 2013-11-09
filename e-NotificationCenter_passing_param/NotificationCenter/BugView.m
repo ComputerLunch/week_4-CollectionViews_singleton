@@ -61,14 +61,11 @@
         
         NSDictionary * passedObject = (NSDictionary *)notification.object;
         //NSLog(@"print ");
-        NSLog(@"p %@", [passedObject objectForKey:@"name"]);
+        NSLog(@"object %@", [passedObject objectForKey:@"name"]);
     }
     
     
-    
-    
-    
-    
+
     
 }
 

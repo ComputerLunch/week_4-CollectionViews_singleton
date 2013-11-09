@@ -10,7 +10,7 @@
     if (self) {
         
         [[NSNotificationCenter defaultCenter] addObserver:self
-                                                 selector:@selector(moveBugUp:)
+                                                 selector:@selector(moveBugUp)
                                                      name:@"moveBug"
                                                    object:nil ];
         
